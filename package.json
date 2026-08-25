@@ -9,6 +9,9 @@
 		"url": "git+https://github.com/empyria-nano/restate-llm.git"
 	},
 	"type": "module",
+	"publishConfig": {
+		"access": "public"
+	},
 	"main": "./index.js",
 	"exports": {
 		".": "./index.js",
