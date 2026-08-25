@@ -1,0 +1,43 @@
+{
+	"name": "@empyria/restate-llm",
+	"version": "0.1.0",
+	"description": "Restate.dev helpers for LLM manipulation",
+	"license": "MIT",
+	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/empyria-nano/restate-llm.git"
+	},
+	"type": "module",
+	"main": "./index.js",
+	"exports": {
+		".": "./index.js",
+		"./lib/*": "./lib/*.js",
+		"./package.json": "./package.json"
+	},
+	"scripts": {
+		"format": "bun oxfmt --check",
+		"format:fix": "bun oxfmt",
+		"lint": "bun oxlint",
+		"lint:fix": "bun oxlint --fix",
+		"test": "bun test --coverage",
+		"test:watch": "bun test --watch"
+	},
+	"dependencies": {
+		"@ag-ui/encoder": "0.0.58",
+		"@ai-sdk/openai-compatible": "3.0.37",
+		"@ai-sdk/provider": "4.0.8",
+		"@empyria/restate": "0.1.6",
+		"@restatedev/restate-sdk": "^1.16.9",
+		"ai": "7.0.79"
+	},
+	"devDependencies": {
+		"oxfmt": "0.65.0",
+		"oxlint": "1.80.0"
+	},
+	"engines": {
+		"bun": ">=1.4.0",
+		"node": ">=26"
+	},
+	"packageManager": "bun@1.4.0"
+}
