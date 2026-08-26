@@ -30,7 +30,7 @@
 		"@ag-ui/encoder": "0.0.58",
 		"@ai-sdk/openai-compatible": "3.0.37",
 		"@ai-sdk/provider": "4.0.8",
-		"@empyria/restate": "0.1.6",
+		"@empyria/restate": "0.1.7",
 		"@restatedev/restate-sdk": "^1.16.9",
 		"ai": "7.0.79"
 	},
