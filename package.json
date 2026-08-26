@@ -1,6 +1,6 @@
 {
 	"name": "@empyria/restate-llm",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Restate.dev helpers for LLM manipulation",
 	"license": "MIT",
 	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
