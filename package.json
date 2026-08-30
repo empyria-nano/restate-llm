@@ -1,6 +1,6 @@
 {
 	"name": "@empyria/restate-llm",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "Restate.dev helpers for LLM manipulation",
 	"license": "MIT",
 	"author": "Imre Fazekas <imre.fazekas@icloud.com>",
@@ -27,12 +27,12 @@
 		"test:watch": "bun test --watch"
 	},
 	"dependencies": {
-		"@ag-ui/encoder": "0.0.58",
-		"@ai-sdk/openai-compatible": "3.0.37",
-		"@ai-sdk/provider": "4.0.8",
-		"@empyria/restate": "0.1.7",
+		"@ag-ui/encoder": "0.0.59",
+		"@ai-sdk/openai-compatible": "3.0.41",
+		"@ai-sdk/provider": "4.0.9",
+		"@empyria/restate": "0.1.8",
 		"@restatedev/restate-sdk": "^1.16.9",
-		"ai": "7.0.79"
+		"ai": "7.0.85"
 	},
 	"devDependencies": {
 		"oxfmt": "0.65.0",
